@@ -1,11 +1,12 @@
-{"name":"KCUseful",
+{"name":"JCUseful",
 "version": "0.1",
 "description":"Provides QoL improvements for the Uni's website",
 "manifest_version": 2,
 "content_scripts": [
-    {"matches": ["https://www.jcu.edu.au/learn/*"],
-    "js": ["jquery.js", "fixer.js"]},
-    {"matches": ["*://www.jcu.edu.au"],
-    "js":["jquery.js", "bigbuttons.js"]}
-]
+    {"matches": ["*://www.jcu.edu.au/", "https://www.jcu.edu.au/learn/*"],
+    "js": ["jquery.js", "fixer.js", "bigbuttons.js"]}
+],
+ "web_accessible_resources":[
+     "/bigbutts.html"
+ ]
 }
