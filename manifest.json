@@ -1,5 +1,5 @@
 {"name":"JCUseful",
-"version": "0.1",
+"version": "1.0",
 "description":"Provides QoL improvements for the Uni's website",
 "manifest_version": 2,
 "content_scripts": [
