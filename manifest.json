@@ -1,11 +1,11 @@
 {"name":"JCUseful",
-"version": "1.0",
-"description":"Provides QoL improvements for the Uni's website. 1.) Logo of /learn takes you back to home page now 2.) Provides quick links for most used services",
+"version": "1.2",
+"description":"Provides QoL improvements for the Uni's website. Provides quick links for most used services on home page",
 "manifest_version": 2,
-"icons":{"16":"logo_16"},
+"icons":{"16":"logo_16.png"},
 "content_scripts": [
-    {"matches": ["*://www.jcu.edu.au/", "https://www.jcu.edu.au/learn/*"],
-    "js": ["jquery.js", "fixer.js", "bigbuttons.js"]}
+    {"matches": ["*://www.jcu.edu.au/"],
+    "js": ["jquery.js", "bigbuttons.js"]}
 ],
  "web_accessible_resources":[
      "/bigbutts.html"
